@@ -11,33 +11,47 @@ function Header() {
   };
 
   return (
-    <header className="container">
-      <nav className="nav">
+    <header className="">
+      <nav className="nav container">
         <div>
           <img src={navlogo} alt="logo" />
         </div>
         <div className={`nav__collect ${isMenuOpen ? "show" : ""}`}>
           <ul className="nav__collection">
             <li className="nav__itemm">
-              <a href="">home</a>
+              <a className="menu" href="">
+                home
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">project</a>
+              <a className="menu" href="">
+                project
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">services</a>
+              <a className="menu" href="">
+                services
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">about</a>
+              <a className="menu" href="">
+                about
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">blog</a>
+              <a className="menu" href="">
+                blog
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">shop</a>
+              <a className="menu" href="">
+                shop
+              </a>
             </li>
             <li className="nav__itemm">
-              <a href="">contact</a>
+              <a className="menu" href="">
+                contact
+              </a>
             </li>
           </ul>
           <button className="nav__btn">sign in</button>

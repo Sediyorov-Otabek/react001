@@ -12,7 +12,7 @@ function hero() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation.
           </p>
-          <button>CONTACT</button>
+          <button className="hero__btn">CONTACT</button>
         </div>
         <div className="creat__img">
           <img src={heroimg} alt="" />
