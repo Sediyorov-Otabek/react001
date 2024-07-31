@@ -75,18 +75,7 @@ header {
   transform-style: preserve-3d;
   perspective: 800px;
 }
-.nav__collection::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: calc(100%-2px);
-  height: calc(100%-2px);
-  background: black;
-  text-align: center;
-  top: 1px;
-  left: 1px;
-  border-radius: 100px;
-}
+
 .nav__itemm {
   margin: 0 10px;
 }
