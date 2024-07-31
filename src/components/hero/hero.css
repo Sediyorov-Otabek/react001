@@ -13,6 +13,19 @@
     flex-direction: column;
     gap: 25px;
   }
+
+  .creat__discript {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .creat__discript,
+  p {
+    color: darkgray;
+    text-align: center;
+  }
 }
 
 .creat__discript {
@@ -23,6 +36,7 @@
 }
 b {
   font-size: 48px;
+  color: #000;
 }
 i,
 p {
