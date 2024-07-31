@@ -32,7 +32,7 @@ strong {
   background: burlywood;
   color: white;
 }
-p:hover {
+.service__text p:hover {
   color: white;
 }
 .service__img {
